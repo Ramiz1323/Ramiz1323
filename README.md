@@ -1,4 +1,4 @@
-assets/iko.gif
+assets/iko2.gif
 
 # 💫 Hii, I'm Sk Ramiz Raza:
 🔭 I’m currently working on My Portfolio<br>👯 I’m looking to collaborate on Big Projects<br>🤝 I’m looking for help with Cloud Computing<br>🌱 I’m currently learning Web Development<br>💬 I'm happy to help with any queries<br>
