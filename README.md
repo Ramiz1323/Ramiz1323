@@ -26,7 +26,7 @@
 
 ## 💫 About Me
 
-- 🔭 Currently building **[Lyra](https://github.com/Ramiz1323/Lyra)** — a self-hosted AI research engine powered by **Mistral AI + Tavily + Socket.io**
+-  🔭 Currently building **[PromptArena](https://github.com/Ramiz1323/PromptArena)** — an AI battle arena where multiple LLMs compete on the same prompt using **LangGraph**
 - 🧠 Exploring **agentic AI systems** using **LangGraph** (multi-LLM orchestration) and **LangChain**
 - ⚡ Specialise in **real-time full-stack apps** — JWT auth, Redux Toolkit, Socket.io, WebSockets
 - 🎯 Passionate about bridging **computer vision + web** (see: Mood-Sync with MediaPipe blendshapes)
