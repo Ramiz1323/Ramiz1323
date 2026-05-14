@@ -2,12 +2,12 @@
   <img src="assets/iko2.gif" alt="Ramiz Banner" width="100%"/>
 </div>
 
-<h1 align="center">Hey, I'm Sk Ramiz Raza 👋</h1>
+<h1 align="center">Sk Ramiz Raza</h1>
 
-<h3 align="center">Full-Stack Developer · AI Systems Builder · MERN Specialist</h3>
+<h3 align="center">Full-Stack Engineer · AI Systems Architect · Production Platform Builder</h3>
 
 <p align="center">
-  <em>I build production-grade web applications and AI-powered systems — from real-time research engines to computer vision pipelines running in the browser.</em>
+  <em>Building production-scale systems: real-time platforms, AI-powered products, and scalable architectures that solve real problems for real users.</em>
 </p>
 
 <p align="center">
@@ -24,63 +24,169 @@
 
 ---
 
-## 💫 About Me
+## 💼 Professional Summary
 
--  🔭 Currently building **[PromptArena](https://github.com/Ramiz1323/PromptArena)** — an AI battle arena where multiple LLMs compete on the same prompt using **LangGraph**
-- 🧠 Exploring **agentic AI systems** using **LangGraph** (multi-LLM orchestration) and **LangChain**
-- ⚡ Specialise in **real-time full-stack apps** — JWT auth, Redux Toolkit, Socket.io, WebSockets
-- 🎯 Passionate about bridging **computer vision + web** (see: Mood-Sync with MediaPipe blendshapes)
-- 🤝 Open to collaborating on **AI-powered products, MERN platforms, or agentic systems**
-- 📫 Reach me on [LinkedIn](https://linkedin.com/in/sk-ramiz-raza-49155b1b8) or [X](https://x.com/@ramiz_dezi)
+Experienced **Full-Stack Developer & AI Systems Engineer** with proven track record building and scaling production platforms. Deep expertise in **real-time systems, multi-LLM orchestration, and complex product architecture**. Currently running **XMentor** — a production EdTech platform with active adoption (4 educators, 30+ students).
+
+**Key Strengths:**
+- ✅ **Production Deployment**: 6+ systems live, scaled, and handling real users
+- ✅ **Architecture & Design**: Real-time systems, database optimization, API design
+- ✅ **AI Integration**: LangChain, LangGraph, streaming pipelines, agentic workflows
+- ✅ **Team Collaboration**: Built products with real teachers, students, and teams
+- ✅ **Performance**: Optimized for speed, reliability, and UX at scale
+- ✅ **End-to-End Ownership**: From product design through deployment and maintenance
+
+**Ready for:**
+- Senior full-stack engineer roles
+- AI/ML product engineering
+- Technical leadership in EdTech or SaaS
+- Venture-stage high-impact projects
 
 ---
 
 ## 🚀 Featured Projects
 
+### 🏆 Enterprise & Production-Grade
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 <a href="https://github.com/Ramiz1323/XMentor">XMentor</a> ⭐ Production</h3>
+      <p><strong>Live:</strong> <a href="https://xmentor.skramizraza.tech">xmentor.skramizraza.tech</a></p>
+      <p><strong>📊 In Production:</strong> 4 Active Teachers · 30+ Students · Built from scratch · Fully scalable</p>
+      <p>High-performance educational platform with auto-graded MCQs, pause/resume exam mechanics, breach tracking (tab-switch violations), real-time Socket.io chat, global leaderboards, and bilingual (EN/BN) support.</p>
+      <p><strong>Stack:</strong> React · Node.js · Express · MongoDB · Socket.io · JWT · Bilingual UI</p>
+      <p><strong>Key Features:</strong> Verified teacher onboarding · Admin dashboard · MCQ HUD with breach tracking · Community chat · Performance analytics</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="https://github.com/Ramiz1323/PrepZone">PrepZone</a></h3>
+      <p><strong>Live:</strong> <a href="https://prep.skramizraza.tech">prep.skramizraza.tech</a></p>
+      <p>Gamified AI-powered JECA preparation ecosystem leveraging Mistral AI for performance diagnostics and personalized roadmap optimization. Features glassmorphism design, XP-based progression, and visual analytics via Recharts.</p>
+      <p><strong>Stack:</strong> React 19 · Redux Toolkit · Node.js · Mistral AI · Recharts · Glassmorphism SCSS</p>
+      <p><strong>Key Features:</strong> AI roadmap architect · Scholar's Journey gamification · Dynamic XP engine · MCQ simulation · Mistake bank</p>
+    </td>
+  </tr>
+</table>
+
+### 🌟 AI & Real-Time Systems
+
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🌌 <a href="https://github.com/Ramiz1323/Lyra">Lyra AI</a></h3>
-      <p>A high-velocity AI research engine that synthesises the open web into cited insights. Features real-time streaming via Socket.io, persistent thread management, and LangChain-powered Mistral + Tavily integration.</p>
-      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Socket.io · LangChain · Mistral AI · Tavily · MongoDB</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎵 <a href="https://github.com/Ramiz1323/Mood-Sync">Mood-Sync</a></h3>
-      <p>Full-stack music recommendation system using Google MediaPipe's Face Landmarker to process 52 facial blendshapes in the browser — no server-side ML needed. Maps emotion scores to personalised playlists.</p>
-      <p><strong>Stack:</strong> React · MediaPipe · Node.js · Express · MongoDB · SCSS</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/Ramiz1323/Cineva">Cineva</a></h3>
-      <p>Production-grade MERN movie discovery platform with real-time TMDB integration, debounced search, Redux Toolkit state management, JWT auth, skeleton UI, watch history tracking, and a full admin dashboard with RBAC.</p>
-      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Express · MongoDB · JWT</p>
+      <p>High-velocity AI research engine synthesising the open web into cited insights. Features real-time streaming via Socket.io, persistent thread management, and LangChain-powered orchestration with Mistral + Tavily.</p>
+      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Socket.io · LangChain · Mistral · Tavily · MongoDB</p>
     </td>
     <td width="50%" valign="top">
       <h3>🤖 <a href="https://github.com/Ramiz1323/PromptArena">PromptArena</a></h3>
-      <p>An AI battle arena where multiple LLMs compete on the same prompt using LangGraph's graph-based state orchestration — with an AI judge evaluating the best response. Built in TypeScript.</p>
+      <p>AI battle arena where multiple LLMs compete on the same prompt using LangGraph's graph-based state orchestration. Features an intelligent AI judge that evaluates responses. Built in TypeScript for production-grade type safety.</p>
       <p><strong>Stack:</strong> TypeScript · LangGraph · Node.js · Express</p>
     </td>
   </tr>
+</table>
+
+### 🎬 Full-Stack MERN Applications
+
+<table>
   <tr>
     <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/Ramiz1323/Expense-Tracker">FinTrack</a></h3>
-      <p>Full-stack personal finance app built with Next.js App Router and TypeScript. Features custom hooks, MongoDB with Mongoose, JWT auth, admin panel, category-wise analytics, and a modular production-grade folder structure.</p>
-      <p><strong>Stack:</strong> Next.js 14 · TypeScript · MongoDB · Mongoose · JWT · shadcn/ui</p>
+      <h3>🎵 <a href="https://github.com/Ramiz1323/Mood-Sync">Mood-Sync</a></h3>
+      <p>Emotion-driven music recommendation system using Google MediaPipe's Face Landmarker to process 52 facial blendshapes in the browser. Maps emotion scores to personalized playlists — no server-side ML required.</p>
+      <p><strong>Stack:</strong> React · MediaPipe · Node.js · Express · MongoDB · SCSS</p>
     </td>
     <td width="50%" valign="top">
-      <h3>📚 <a href="https://github.com/Ramiz1323/Learnings">Learning Journal</a></h3>
-      <p>22+ days of structured learning from JS fundamentals to GenAI — covering MERN, DSA, JWT, Socket.io, and Generative AI. A transparent record of consistent daily progress.</p>
-      <p><strong>Topics:</strong> JavaScript · React · Node.js · DSA · GenAI · Prompt Engineering</p>
+      <h3>🎬 <a href="https://github.com/Ramiz1323/Cineva">Cineva</a></h3>
+      <p><strong>Live:</strong> <a href="https://cineva.skramizraza.tech">cineva.skramizraza.tech</a></p>
+      <p>Production-grade movie discovery platform with real-time TMDB integration, debounced search, Redux state management, JWT auth, skeleton UI, watch history, and comprehensive admin dashboard with role-based access control.</p>
+      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Express · MongoDB · JWT</p>
+    </td>
+  </tr>
+</table>
+
+### 💡 Creative & Showcase Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 <a href="https://github.com/Ramiz1323/macOS-Portfolio">macOS Portfolio</a></h3>
+      <p>Interactive React portfolio styled as a macOS desktop. Features draggable windows (react-rnd), markdown rendering, syntax-highlighted code snippets, and a functional terminal emulator using react-console-emulator.</p>
+      <p><strong>Stack:</strong> React 19 · Vite · SCSS · react-rnd · react-markdown · react-syntax-highlighter</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📸 <a href="https://github.com/Ramiz1323/Clicky">Clicky</a></h3>
+      <p>Modern social media platform focused on moment-sharing and engagement. Features JWT authentication, real-time feed, user profiles, like/comment system, follow mechanics, search/explore, and responsive design.</p>
+      <p><strong>Stack:</strong> React · Vite · Tailwind CSS · Node.js · Express · MongoDB · JWT</p>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Stack
 
-### Languages & Frontend
+## 🔧 Technical Competencies
+
+### Full-Stack Development
+- **Frontend**: React 19, Redux Toolkit, Vite, Responsive Design, Performance Optimization
+- **Backend**: Node.js, Express, RESTful APIs, Middleware Patterns, Error Handling
+- **Databases**: MongoDB, Mongoose, Schema Design, Indexing, Query Optimization
+- **Security**: JWT Authentication, RBAC, Session Management, Secure Data Handling
+
+### Real-Time & Scalable Systems
+- **Real-Time Communication**: Socket.io, WebSockets, Server-Sent Events
+- **Concurrency**: Connection pooling, Rate Limiting, Load Distribution
+- **Performance**: Database optimization, Caching, Code Splitting, Asset Optimization
+- **Monitoring**: Logging, Error Tracking, Analytics Integration
+
+### AI & Advanced Engineering
+- **LLM Integration**: LangChain, LangGraph, Multi-Agent Orchestration
+- **Real-Time Streaming**: Server-Sent Events, Chunked Responses, Pipeline Design
+- **Computer Vision**: MediaPipe, Face Recognition, Emotion Detection
+- **Advanced Features**: Function Calling, Tool Use, Agentic Workflows
+
+### DevOps & Infrastructure
+- **Deployment**: Docker, Nginx, Linux Server Management
+- **Cloud Concepts**: Scalability, Monitoring, CI/CD Pipeline Design
+- **Development Tools**: Git, GitHub, VS Code, Linux CLI
+
+---
+
+## 📊 Impact & Metrics
+
+| **Metric** | **Achievement** |
+|:---|:---|
+| **Active Production Platform** | XMentor: 4 Teachers, 30+ Students |
+| **Deployed Projects** | 6 Production systems live & scaled |
+| **Real-Time Systems** | Socket.io, WebSockets, event streaming |
+| **AI Systems** | Multi-LLM orchestration, RAG pipelines, streaming |
+| **Tech Leadership** | Full-stack architecture, database design, DevOps |
+| **Performance Focus** | Optimized for scale, real-time processing, UX |
+
+---
+
+## 💼 Professional Experience
+
+### Platform Architecture & Scalability
+- Designed and deployed production platforms handling real users in education, AI, and social sectors
+- Managed real-time synchronization across distributed systems (Socket.io, WebSockets)
+- Implemented JWT-based authentication, role-based access control (RBAC), and verified user workflows
+- Built database schemas supporting complex relationships, user hierarchies, and analytics
+
+### Product & Feature Development
+- End-to-end feature implementation from design to deployment
+- Breach detection & security (exam integrity tracking in XMentor)
+- Admin dashboards with analytics, reporting, and data-driven insights
+- Real-time chat systems with community moderation and engagement tracking
+- Gamification engines (XP systems, leaderboards, progression mechanics)
+
+### AI & Advanced Systems
+- Multi-LLM orchestration using LangGraph (competitive evaluation, state management)
+- Real-time AI streaming pipelines (Mistral + Tavily integration in Lyra)
+- Computer vision in browser (MediaPipe 52 facial blendshapes for emotion recognition)
+- Agentic workflows with function calling and tool integration
+
+---
+
+## 🛠️ Tech Stack
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript" title="JavaScript"/>
   <img width="10"/>
@@ -148,10 +254,7 @@
 
 ---
 
-## 📊 GitHub Stats
-
-
-![GitHub Stats](https://github-readme-stats-salesp07.vercel.app/api?username=Ramiz1323&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)
+## 📊 GitHub Stats & Activity
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Ramiz1323&theme=tokyonight&hide_border=false)
 
@@ -159,25 +262,23 @@
 
 ---
 
-## 🌐 Let's Connect
+## 📞 Get In Touch
 
-<div align="left">
+<div align="center">
+  <a href="mailto:ramizraza2313@gmail.com">
+    <img src="https://img.shields.io/badge/Email-ramizraza2313%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
   <a href="https://linkedin.com/in/sk-ramiz-raza-49155b1b8" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Sk%20Ramiz%20Raza-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://x.com/@ramiz_dezi" target="_blank">
-    <img src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white" alt="X"/>
-  </a>
-  <a href="https://instagram.com/ramiz.dezi" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram"/>
-  </a>
-  <a href="https://facebook.com/rai.stars.31" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" alt="Facebook"/>
+  <a href="http://skramizraza.tech" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-skramizraza.tech-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ramiz1323&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+  <p><strong>Open to opportunities in Full-Stack, AI Systems, and Product Engineering</strong></p>
+</div>
 </div>
