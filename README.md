@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="assets/iko2.gif" alt="Ramiz Banner" width="100%"/>
-</div>
-
 <h1 align="center">Sk Ramiz Raza</h1>
 
 <h3 align="center">Full-Stack Engineer · AI Systems Architect · Production Platform Builder</h3>
