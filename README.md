@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/iko2.gif" alt="Ramiz Banner" width="100%"/>
+</div>
+
 <h1 align="center">Sk Ramiz Raza</h1>
 
 <h3 align="center">Full-Stack Engineer · AI Systems Architect · Production Platform Builder</h3>
@@ -13,8 +17,8 @@
   <a href="https://linkedin.com/in/sk-ramiz-raza-49155b1b8" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:skramizraza@email.com">
-    <img src="https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="mailto:ramizraza2313@gmail.com">
+    <img src="https://img.shields.io/badge/Email-ramizraza2313%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
@@ -22,167 +26,236 @@
 
 ## 💼 Professional Summary
 
-Experienced **Full-Stack Developer & AI Systems Engineer** with proven track record building and scaling production platforms. Deep expertise in **real-time systems, multi-LLM orchestration, and complex product architecture**. Currently running **XMentor** — a production EdTech platform with active adoption (4 educators, 30+ students).
+**Full-Stack Software Engineer & Backend Systems Architect** with a solid foundation in **Node.js, Express, MongoDB, Next.js, and DevOps (Docker, Linux, Nginx)** alongside **AI & Agentic Systems (LangChain, LangGraph, Gemini, Mistral)**.
 
-**Key Strengths:**
-- ✅ **Production Deployment**: 6+ systems live, scaled, and handling real users
-- ✅ **Architecture & Design**: Real-time systems, database optimization, API design
-- ✅ **AI Integration**: LangChain, LangGraph, streaming pipelines, agentic workflows
-- ✅ **Team Collaboration**: Built products with real teachers, students, and teams
-- ✅ **Performance**: Optimized for speed, reliability, and UX at scale
-- ✅ **End-to-End Ownership**: From product design through deployment and maintenance
+Proven track record of delivering scalable architectures across **multiple software engineering internships** and independently deployed, high-traffic production platforms (like **XMentor** serving real educators & students). Specializes in building secure authentication layers, real-time event infrastructure, complex business workflow automation, and robust enterprise APIs.
 
-**Ready for:**
-- Senior full-stack engineer roles
-- AI/ML product engineering
-- Technical leadership in EdTech or SaaS
-- Venture-stage high-impact projects
+**Core Strengths:**
+
+| Area | What I Bring |
+|:---|:---|
+| 🏗️ **Backend & System Design** | High-concurrency RESTful APIs, modular monoliths, proxy integration layers, rate limiting, and caching |
+| 🤖 **AI & Agentic Systems** | LangChain, LangGraph stateful DAG orchestration, Google Gemini 3.6 Flash, Mistral AI, MCP protocol |
+| ⚡ **Real-Time & Offline Architecture** | Socket.io WebSockets, token streaming, IndexedDB (Dexie.js) offline-first sync pipelines |
+| 🔐 **Enterprise Security** | Stateless JWT (httpOnly cookies), RBAC, API key validation, IDOR mitigation, Zod validation |
+| 🚀 **DevOps & Production Infrastructure** | Docker, Nginx reverse proxy, Linux/VPS administration, Hostinger, DigitalOcean, PM2, CI/CD |
+| 💳 **Payments & Integrations** | Razorpay payment lifecycle (HMAC-SHA256 verification), WhatsApp automation, OAuth 2.0 |
+
+**Open to:**
+- Software Engineer / Full-Stack Engineer Roles
+- Backend Developer (Node.js / Express / MongoDB / TypeScript)
+- AI Product & Agentic Systems Engineer
+- High-Growth Tech & SaaS Engineering Teams
+- AI/ML Product Engineering
+- Backend-focused Engineering
+- Technical roles in EdTech, SaaS, or AI-first companies
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏆 Enterprise & Production-Grade
+> **Why these aren't typical MERN apps:** Each project below solves a non-trivial system design problem — distributed state machines, offline-resilient sync queues, multi-LLM graph orchestration, IDOR-safe multi-tenant APIs, and payment-integrated e-commerce flows. The design decisions listed under each project are what separate production-grade systems from tutorial clones.
+
+---
+
+### 🏆 Tier 1 — Production Platforms (Live, Real Users)
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎓 <a href="https://github.com/Ramiz1323/XMentor">XMentor</a> ⭐ Production</h3>
-      <p><strong>Live:</strong> <a href="https://xmentor.skramizraza.tech">xmentor.skramizraza.tech</a></p>
-      <p><strong>📊 In Production:</strong> 4 Active Teachers · 30+ Students · Built from scratch · Fully scalable</p>
-      <p>High-performance educational platform with auto-graded MCQs, pause/resume exam mechanics, breach tracking (tab-switch violations), real-time Socket.io chat, global leaderboards, and bilingual (EN/BN) support.</p>
-      <p><strong>Stack:</strong> React · Node.js · Express · MongoDB · Socket.io · JWT · Bilingual UI</p>
-      <p><strong>Key Features:</strong> Verified teacher onboarding · Admin dashboard · MCQ HUD with breach tracking · Community chat · Performance analytics</p>
+      <h3>🎓 <a href="https://github.com/Ramiz1323/XMentor">XMentor</a> &nbsp;<img src="https://img.shields.io/badge/Status-LIVE-success?style=flat-square"/></h3>
+      <p><strong>Live:</strong> <a href="https://xmentor.skramizraza.tech">xmentor.skramizraza.tech</a>&nbsp;&nbsp;<strong>In Production:</strong> 4 Educators · 30+ Students</p>
+      <p><strong>🔑 Unique System Design: Distributed Exam State Machine + Real-Time Event Gateway</strong></p>
+      <p>High-performance educational assessment platform modeling end-to-end exam lifecycles as a distributed client-server state machine with real-time Socket.io communication, cheat-resistant question randomization, pause/resume state persistence, server-sanitized breach detection, and an integrated gamified perk economy.</p>
+      <p><strong>Stack:</strong> React 19 · Zustand · Socket.io · Node.js · Express · MongoDB · Zod · JWT · PWA (Workbox + Web Push)</p>
     </td>
     <td width="50%" valign="top">
-      <h3>📊 <a href="https://github.com/Ramiz1323/PrepZone">PrepZone</a></h3>
+      <h3>📊 <a href="https://github.com/Ramiz1323/PrepZone">PrepZone</a> &nbsp;<img src="https://img.shields.io/badge/Status-LIVE-success?style=flat-square"/></h3>
       <p><strong>Live:</strong> <a href="https://prep.skramizraza.tech">prep.skramizraza.tech</a></p>
-      <p>Gamified AI-powered JECA preparation ecosystem leveraging Mistral AI for performance diagnostics and personalized roadmap optimization. Features glassmorphism design, XP-based progression, and visual analytics via Recharts.</p>
-      <p><strong>Stack:</strong> React 19 · Redux Toolkit · Node.js · Mistral AI · Recharts · Glassmorphism SCSS</p>
-      <p><strong>Key Features:</strong> AI roadmap architect · Scholar's Journey gamification · Dynamic XP engine · MCQ simulation · Mistake bank</p>
-    </td>
-  </tr>
-</table>
-
-### 🌟 AI & Real-Time Systems
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌌 <a href="https://github.com/Ramiz1323/Lyra">Lyra AI</a></h3>
-      <p>High-velocity AI research engine synthesising the open web into cited insights. Features real-time streaming via Socket.io, persistent thread management, and LangChain-powered orchestration with Mistral + Tavily.</p>
-      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Socket.io · LangChain · Mistral · Tavily · MongoDB</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/Ramiz1323/PromptArena">PromptArena</a></h3>
-      <p>AI battle arena where multiple LLMs compete on the same prompt using LangGraph's graph-based state orchestration. Features an intelligent AI judge that evaluates responses. Built in TypeScript for production-grade type safety.</p>
-      <p><strong>Stack:</strong> TypeScript · LangGraph · Node.js · Express</p>
-    </td>
-  </tr>
-</table>
-
-### 🎬 Full-Stack MERN Applications
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎵 <a href="https://github.com/Ramiz1323/Mood-Sync">Mood-Sync</a></h3>
-      <p>Emotion-driven music recommendation system using Google MediaPipe's Face Landmarker to process 52 facial blendshapes in the browser. Maps emotion scores to personalized playlists — no server-side ML required.</p>
-      <p><strong>Stack:</strong> React · MediaPipe · Node.js · Express · MongoDB · SCSS</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎬 <a href="https://github.com/Ramiz1323/Cineva">Cineva</a></h3>
-      <p><strong>Live:</strong> <a href="https://cineva.skramizraza.tech">cineva.skramizraza.tech</a></p>
-      <p>Production-grade movie discovery platform with real-time TMDB integration, debounced search, Redux state management, JWT auth, skeleton UI, watch history, and comprehensive admin dashboard with role-based access control.</p>
-      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Express · MongoDB · JWT</p>
-    </td>
-  </tr>
-</table>
-
-### 💡 Creative & Showcase Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💻 <a href="https://github.com/Ramiz1323/macOS-Portfolio">macOS Portfolio</a></h3>
-      <p>Interactive React portfolio styled as a macOS desktop. Features draggable windows (react-rnd), markdown rendering, syntax-highlighted code snippets, and a functional terminal emulator using react-console-emulator.</p>
-      <p><strong>Stack:</strong> React 19 · Vite · SCSS · react-rnd · react-markdown · react-syntax-highlighter</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📸 <a href="https://github.com/Ramiz1323/Clicky">Clicky</a></h3>
-      <p>Modern social media platform focused on moment-sharing and engagement. Features JWT authentication, real-time feed, user profiles, like/comment system, follow mechanics, search/explore, and responsive design.</p>
-      <p><strong>Stack:</strong> React · Vite · Tailwind CSS · Node.js · Express · MongoDB · JWT</p>
+      <p><strong>🔑 Unique System Design: Offline-Resilient Sync Architecture + Non-Linear Predictive Modeling</strong></p>
+      <p>Competitive entrance preparation ecosystem engineered with offline-first exam persistence (Dexie.js IndexedDB) and background synchronization outbox queues. Features a dual-condition cached Mistral AI diagnostic engine, cubic-scaled rank prediction modeling 25,000 candidates, and real-time MongoDB aggregation analytics across 11 CS domains.</p>
+      <p><strong>Stack:</strong> React 19 · Redux Toolkit · Node.js · Express 5 · MongoDB · Mistral AI · Dexie.js (IndexedDB) · Recharts · Winston · Nginx</p>
     </td>
   </tr>
 </table>
 
 ---
 
+### 🌟 Tier 2 — AI & Agentic Systems
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📝 <a href="https://github.com/Ramiz1323/TypeCast">TypeCast</a> &nbsp;<img src="https://img.shields.io/badge/Next.js%2016-App%20Router-black?style=flat-square&logo=next.js"/></h3>
+      <p><strong>🔑 Unique System Design: Multi-Tenant Document Security + Stateless Serverless AI Pipeline</strong></p>
+      <p>Developer resume engineering studio built on Next.js 16 App Router and Google Gemini 3.6 Flash. Implements strict IDOR-mitigated mutations via dual-constraint document querying, non-destructive auth interception preserving client workspace state, serverless database connection pooling on <code>global</code>, and an 11-dimensional ATS scoring pipeline.</p>
+      <p><strong>Stack:</strong> Next.js 16 · React 19 · TypeScript 5 · Tailwind CSS 4 · Google Gemini 3.6 Flash · MongoDB · JWT · bcrypt</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌌 <a href="https://github.com/Ramiz1323/Lyra">Lyra AI</a> &nbsp;<img src="https://img.shields.io/badge/LangChain-RAG%20Pipeline-00A67E?style=flat-square&logo=chainlink"/></h3>
+      <p><strong>🔑 Unique System Design: Real-Time AI Streaming Pipeline with LangChain Tool Orchestration</strong></p>
+      <p>High-velocity autonomous research engine that synthesizes the open web into cited insights. Features decoupled architecture streaming LLM tokens in real-time over Socket.io, multi-turn persistent conversation threads in MongoDB, and automated tool-calling workflows leveraging Tavily Search API with LangChain.</p>
+      <p><strong>Stack:</strong> React · Redux Toolkit · Node.js · Socket.io · LangChain · Mistral AI · Tavily Search API · MongoDB</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/Ramiz1323/PromptArena">PromptArena</a> &nbsp;<img src="https://img.shields.io/badge/LangGraph-State%20Graph-FF6B35?style=flat-square&logo=graphql"/></h3>
+      <p><strong>🔑 Unique System Design: LangGraph Stateful Graph Orchestration with AI-as-Judge Pattern</strong></p>
+      <p>Multi-LLM competitive evaluation engine orchestrating parallel model execution via LangGraph Directed Acyclic Graphs (DAG). Collects candidate outputs across multiple AI providers and routes them through an autonomous LLM evaluator node utilizing structured scoring rubrics with end-to-end TypeScript type safety.</p>
+      <p><strong>Stack:</strong> TypeScript 5 · LangGraph · LangChain · Node.js · Express · Mistral AI · Cohere · AWS Bedrock SDK</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🐱 <a href="https://github.com/Ramiz1323/CatGenix">CatGenix</a> &nbsp;<img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-9B59B6?style=flat-square"/></h3>
+      <p><strong>🔑 Unique System Design: MCP Server Integration — The Next Standard for AI Tooling</strong></p>
+      <p>Full-stack creative AI generation platform built around Anthropic's Model Context Protocol (MCP). Decouples AI capabilities into a standalone tool server for dynamic runtime tool discovery, structured image prompt execution, typed TypeScript boundaries, and centralized middleware error handling.</p>
+      <p><strong>Stack:</strong> React · TypeScript · Express.js · MCP Server · AI Tools Integration</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🔧 Tier 3 — Full-Stack MERN Applications
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛒 <a href="https://github.com/Ramiz1323/RespawnX">RespawnX</a> &nbsp;<img src="https://img.shields.io/badge/Razorpay-Payment%20Gateway-blue?style=flat-square"/></h3>
+      <p><strong>🔑 Unique System Design: Payment-Integrated E-Commerce with Dual Auth Flows + DAO Pattern</strong></p>
+      <p>Production e-commerce platform incorporating full Razorpay payment processing with server-side HMAC-SHA256 signature verification, dual authentication pathways (standard salted credentials + Google OAuth 2.0 via Passport.js), and a Data Access Object (DAO) architecture decoupling business logic from ORM queries.</p>
+      <p><strong>Stack:</strong> React 19 · Redux Toolkit · Tailwind CSS 4 · Node.js · Express 5 · MongoDB · Razorpay · Passport.js (Google OAuth 2.0) · ImageKit</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📸 <a href="https://github.com/Ramiz1323/Clickly">Clickly</a> &nbsp;<img src="https://img.shields.io/badge/Social-Media%20Platform-ff6b6b?style=flat-square"/></h3>
+      <p><strong>🔑 Unique System Design: Social Graph Modeling + CDN Media Pipeline</strong></p>
+      <p>Modern social networking platform built with atomic MongoDB graph relationship updates (<code>$addToSet</code>/<code>$pull</code> for follows), in-memory binary media streaming to ImageKit.io CDN via Multer to maintain stateless application servers, and httpOnly cookie session security.</p>
+      <p><strong>Stack:</strong> React · Vite · SCSS · Node.js · Express · MongoDB · JWT (httpOnly) · Multer → ImageKit CDN</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔌 <a href="https://github.com/Ramiz1323/APIX">APIX</a> &nbsp;<img src="https://img.shields.io/badge/Live%20API-api.skramizraza.tech-85EA2D?style=flat-square&logo=swagger"/></h3>
+      <p><strong>Live API:</strong> <a href="https://api.skramizraza.tech">api.skramizraza.tech</a> (Swagger docs included)</p>
+      <p><strong>🔑 Unique System Design: Reusable Multi-Module Backend Platform — Build Once, Serve Many</strong></p>
+      <p>Reusable feature-based modular backend platform deployed on DigitalOcean VPS with Nginx and PM2 process clustering. Exposes unified, production-hardened REST API domains for Auth, Products, Orders, Blogs, and Cloudinary uploads with standardized API envelopes, Zod validations, and declarative query utilities.</p>
+      <p><strong>Stack:</strong> Node.js · Express · MongoDB · Mongoose · Zod · Cloudinary · Swagger/OpenAPI · Nginx · PM2 · DigitalOcean VPS</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 <a href="https://skramizraza.tech">Portfolio — MyIntro</a> &nbsp;<img src="https://img.shields.io/badge/WebGL-GLSL%20Shader-orange?style=flat-square"/></h3>
+      <p><strong>Live:</strong> <a href="https://skramizraza.tech">skramizraza.tech</a></p>
+      <p><strong>🔑 Unique System Design: GPU-Accelerated UI + Client-Side Telemetry Engine</strong></p>
+      <p>Interactive single-page engineering portfolio featuring a custom 60fps WebGL GLSL fragment shader, dynamic client-side GitHub REST/Search API telemetry and streak parsing algorithms, and progressive route code-splitting achieving sub-second First Contentful Paint.</p>
+      <p><strong>Stack:</strong> React 19 · Vite 8 · Tailwind CSS 4 · Custom WebGL/GLSL · Three.js · Framer Motion · GitHub REST API · Oxlint</p>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 🔧 Technical Competencies
 
-### Full-Stack Development
-- **Frontend**: React 19, Redux Toolkit, Vite, Responsive Design, Performance Optimization
-- **Backend**: Node.js, Express, RESTful APIs, Middleware Patterns, Error Handling
-- **Databases**: MongoDB, Mongoose, Schema Design, Indexing, Query Optimization
-- **Security**: JWT Authentication, RBAC, Session Management, Secure Data Handling
+### Core Engineering
 
-### Real-Time & Scalable Systems
-- **Real-Time Communication**: Socket.io, WebSockets, Server-Sent Events
-- **Concurrency**: Connection pooling, Rate Limiting, Load Distribution
-- **Performance**: Database optimization, Caching, Code Splitting, Asset Optimization
-- **Monitoring**: Logging, Error Tracking, Analytics Integration
+| Domain | Technologies & Capabilities |
+|:---|:---|
+| **Frontend** | React 19, Next.js 16 (App Router), Redux Toolkit, Zustand, TypeScript 5, Vite 8, React Router v7/v8 |
+| **Styling** | Tailwind CSS 4, SCSS/Sass Modules, Glassmorphism Design Systems, Framer Motion, Responsive UI |
+| **Backend** | Node.js, Express 5, RESTful APIs, Controller-Service Architecture, Middleware Pipelines |
+| **Databases** | MongoDB, Mongoose, Schema Design, Compound Indexing, Aggregation Pipelines, Query Optimization |
+| **Authentication** | JWT (httpOnly Cookies), bcrypt, RBAC, IDOR Mitigation, Google OAuth (Passport.js), Session Security |
+| **Real-Time** | Socket.io, WebSockets, Server-Sent Events, Streaming AI Pipelines |
 
-### AI & Advanced Engineering
-- **LLM Integration**: LangChain, LangGraph, Multi-Agent Orchestration
-- **Real-Time Streaming**: Server-Sent Events, Chunked Responses, Pipeline Design
-- **Computer Vision**: MediaPipe, Face Recognition, Emotion Detection
-- **Advanced Features**: Function Calling, Tool Use, Agentic Workflows
+### AI & Advanced Systems
+
+| Domain | Technologies & Capabilities |
+|:---|:---|
+| **LLM Orchestration** | LangChain, LangGraph (stateful graph nodes), Multi-Agent Workflows, Prompt Engineering |
+| **AI Models** | Mistral AI, Google Gemini 3.6 Flash, Cohere, Tool-Use / Function Calling |
+| **Agentic Patterns** | RAG pipelines, AI Judge patterns, Deterministic fallback strategies, Response caching |
+| **MCP** | Model Context Protocol server integration |
+| **Computer Vision** | Google MediaPipe (52 facial blendshapes), Browser-side ML inference |
 
 ### DevOps & Infrastructure
-- **Deployment**: Docker, Nginx, Linux Server Management
-- **Cloud Concepts**: Scalability, Monitoring, CI/CD Pipeline Design
-- **Development Tools**: Git, GitHub, VS Code, Linux CLI
+
+| Domain | Technologies & Capabilities |
+|:---|:---|
+| **Deployment** | DigitalOcean VPS, Vercel, Render, Nginx (reverse proxy, SPA routing), PM2 |
+| **Build & Tooling** | Docker, Vite 8, Rollup, Oxlint (Rust-based), ESLint |
+| **API Design** | RESTful conventions, Swagger/OpenAPI documentation, Zod + express-validator validation |
+| **Logging & Monitoring** | Winston structured logging, Morgan HTTP telemetry, Graceful shutdown handlers |
+| **Storage** | Cloudinary CDN, ImageKit.io, MongoDB Atlas, Dexie.js (IndexedDB) |
 
 ---
 
 ## 📊 Impact & Metrics
 
-| **Metric** | **Achievement** |
+| Metric | Achievement |
 |:---|:---|
-| **Active Production Platform** | XMentor: 4 Teachers, 30+ Students |
-| **Deployed Projects** | 6 Production systems live & scaled |
-| **Real-Time Systems** | Socket.io, WebSockets, event streaming |
-| **AI Systems** | Multi-LLM orchestration, RAG pipelines, streaming |
-| **Tech Leadership** | Full-stack architecture, database design, DevOps |
-| **Performance Focus** | Optimized for scale, real-time processing, UX |
+| **Active Production Platform** | XMentor: 4 Educators, 30+ Students — running live exam cycles |
+| **Deployed Projects** | 7+ systems live and publicly accessible |
+| **API Platform** | APIX: Reusable REST API live at `api.skramizraza.tech` |
+| **AI Systems Built** | 4 AI-powered projects: TypeCast (Gemini), PrepZone (Mistral), Lyra (LangChain), PromptArena (LangGraph) |
+| **Full-Stack Breadth** | EdTech · AI Tools · Social Media · E-commerce · Developer Tooling |
+| **Architecture Patterns** | Controller-Service, DAO, Feature-Based Monolith, Stateful Graph Agents |
+| **Payment Integration** | Razorpay payment gateway (RespawnX e-commerce) |
+| **WebGL / Graphics** | Custom GLSL fragment shader (60fps GPU render loop — portfolio) |
 
 ---
 
-## 💼 Professional Experience
+## 💼 Industry & Engineering Experience
 
-### Platform Architecture & Scalability
-- Designed and deployed production platforms handling real users in education, AI, and social sectors
-- Managed real-time synchronization across distributed systems (Socket.io, WebSockets)
-- Implemented JWT-based authentication, role-based access control (RBAC), and verified user workflows
-- Built database schemas supporting complex relationships, user hierarchies, and analytics
+### 🏢 Hillborn Technologies Private Limited
+**Software Developer with DevOps** &nbsp;|&nbsp; *August 2026 – Present*
+- Architecting and developing an **enterprise CRM system** designed to handle **100K+ contact records** with optimized indexing and query handling.
+- Designing and implementing automated **WhatsApp API communication integrations** featuring real-time delivery and message status tracking.
+- Orchestrating **DevOps pipelines**, configuring containerized deployment workflows with Docker, and provisioning infrastructure across **Hostinger VPS** with Nginx reverse proxy.
+- Shipping and maintaining multiple full-stack production services using **Next.js, React, Node.js, Express.js, MongoDB, and Docker**.
 
-### Product & Feature Development
-- End-to-end feature implementation from design to deployment
-- Breach detection & security (exam integrity tracking in XMentor)
-- Admin dashboards with analytics, reporting, and data-driven insights
-- Real-time chat systems with community moderation and engagement tracking
-- Gamification engines (XP systems, leaderboards, progression mechanics)
+---
 
-### AI & Advanced Systems
-- Multi-LLM orchestration using LangGraph (competitive evaluation, state management)
-- Real-time AI streaming pipelines (Mistral + Tavily integration in Lyra)
-- Computer vision in browser (MediaPipe 52 facial blendshapes for emotion recognition)
-- Agentic workflows with function calling and tool integration
+### 🏥 OPDSure
+**Software Development Intern (Backend Engineering)** &nbsp;|&nbsp; *April 2026 – July 2026*
+- Engineered high-throughput, scalable backend microservices using **Node.js, Express.js, and MongoDB**.
+- Designed and built a dedicated **API Integration Layer (Gateway Proxy)** sitting between client applications and backend microservices to enforce security and rate policies.
+- Implemented **JWT authentication, API key validation pipelines, custom security middleware, and granular Role-Based Access Control (RBAC)**.
+- Automated complex end-to-end business workflows: **employee onboarding, insurance claims processing, and automated multi-channel notification systems** (WhatsApp + transactional email automation).
+- Implemented industry-standard backend security practices: request payload sanitization, DDoS/brute-force rate limiting, and centralized error handling with structured logging.
+
+---
+
+### 💼 Ardent Computech Pvt Ltd
+**Full-Stack Developer Intern** &nbsp;|&nbsp; *October 2025 – December 2025*
+- Built an interactive full-stack **financial & expense management platform** providing users with dynamic financial insights and categorized budget tracking.
+- Implemented secure session handling, relational expense aggregation pipelines in MongoDB, and dynamic data visualization.
+- **Repository:** [github.com/Ramiz1323/Expense-Tracker](https://github.com/Ramiz1323/Expense-Tracker)
+
+---
+
+### 🌐 GAO Tek Inc.
+**Web Developer Intern** &nbsp;|&nbsp; *March 2025 – July 2025*
+- Collaborated in a distributed international engineering team to build, optimize, and maintain high-performance web applications.
+- Implemented frontend and backend components with modern JavaScript frameworks, optimizing asset delivery, caching, and core web vitals.
+- Participated in Agile sprint planning, code reviews, and cross-functional feature rollouts following clean coding standards.
+
+---
+
+### 💡 SmartED Innovations
+**Web Development Intern** &nbsp;|&nbsp; *April 2025 – August 2025*
+- Developed responsive web interfaces and integrated backend REST endpoints for interactive educational web tools.
+- Focused on component reusability, cross-device responsiveness, and streamlined state synchronization.
+
+---
+
+### 🎓 Wadhwani Foundation
+**Project Intern** &nbsp;|&nbsp; *November 2024 – December 2024*
+- Completed structured real-world technical project milestones focusing on problem formulation, system workflow design, and agile implementation.
 
 ---
 
 ## 🛠️ Tech Stack
+
+### Frontend
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript" title="JavaScript"/>
   <img width="10"/>
@@ -201,8 +274,6 @@ Experienced **Full-Stack Developer & AI Systems Engineer** with proven track rec
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="32" alt="SCSS" title="SCSS"/>
   <img width="10"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="32" alt="Tailwind CSS" title="Tailwind CSS"/>
-  <img width="10"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="32" alt="Bootstrap" title="Bootstrap"/>
 </div>
 
 ### Backend & Databases
@@ -224,28 +295,28 @@ Experienced **Full-Stack Developer & AI Systems Engineer** with proven track rec
   <img width="10"/>
   <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logo=graphql&logoColor=white" height="32" alt="LangGraph" title="LangGraph"/>
   <img width="10"/>
-  <img src="https://img.shields.io/badge/MediaPipe-00897B?style=flat-square&logo=google&logoColor=white" height="32" alt="Google MediaPipe" title="Google MediaPipe"/>
+  <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=google&logoColor=white" height="32" alt="Google Gemini" title="Google Gemini"/>
   <img width="10"/>
   <img src="https://img.shields.io/badge/Mistral%20AI-FF7000?style=flat-square&logo=mistral&logoColor=white" height="32" alt="Mistral AI" title="Mistral AI"/>
   <img width="10"/>
   <img src="https://img.shields.io/badge/Tavily-5B4FE9?style=flat-square&logo=searchengin&logoColor=white" height="32" alt="Tavily" title="Tavily"/>
+  <img width="10"/>
+  <img src="https://img.shields.io/badge/MCP-Protocol-9B59B6?style=flat-square&logoColor=white" height="32" alt="MCP" title="Model Context Protocol"/>
 </div>
 
-### DevOps & Tools
+### DevOps & Infrastructure
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="32" alt="Docker" title="Docker"/>
   <img width="10"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="32" alt="Kubernetes" title="Kubernetes"/>
-  <img width="10"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="32" alt="Nginx" title="Nginx"/>
+  <img width="10"/>
+  <img src="https://img.shields.io/badge/DigitalOcean-VPS-0080FF?style=flat-square&logo=digitalocean&logoColor=white" height="32" alt="DigitalOcean" title="DigitalOcean"/>
+  <img width="10"/>
+  <img src="https://img.shields.io/badge/PM2-Process%20Manager-2B037A?style=flat-square&logo=pm2&logoColor=white" height="32" alt="PM2" title="PM2"/>
   <img width="10"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="32" alt="Git" title="Git"/>
   <img width="10"/>
-  <img src="https://img.shields.io/static/v1?label=%20&message=%20&logo=github&logoColor=000000&color=ffffff&style=flat-square" height="32" alt="GitHub" title="GitHub"/>
-  <img width="10"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="32" alt="VS Code" title="VS Code"/>
-  <img width="10"/>
-  <img src="https://img.shields.io/static/v1?label=%20&message=%20&logo=leetcode&logoColor=000000&color=ffffff&style=flat-square" height="32" alt="LeetCode" title="LeetCode"/>
 </div>
 
 ---
@@ -275,6 +346,6 @@ Experienced **Full-Stack Developer & AI Systems Engineer** with proven track rec
 ---
 
 <div align="center">
-  <p><strong>Open to opportunities in Full-Stack, AI Systems, and Product Engineering</strong></p>
-</div>
+  <p><strong>Open to opportunities in Full-Stack Engineering, AI Systems, and Product Engineering</strong></p>
+  <p><em>All projects are independently built, deployed, and maintained — no tutorials, no bootcamp projects. Real systems, real users.</em></p>
 </div>
